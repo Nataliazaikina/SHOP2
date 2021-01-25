@@ -1,0 +1,104 @@
+.registation {
+	max-width: 1600px;
+	height: 148px;
+	background-color: #F8F3F4;
+}
+.registration__text {
+	padding-top: 59px;
+	padding-left: 230px;
+	font-size: 24px;
+	line-height: 29px;
+	color: #F16D7F;
+	text-transform: uppercase;
+}
+.form {
+	max-width: 1600px;
+	height: 675px;
+}
+.form__reg {
+	margin-left: 230px;
+	margin-top: 64px;
+	height: 451px;
+	width: 360px;
+}
+.form__name {
+	color: #222222;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+}
+.form__first-name, .form__last-name, .form__mail, .form__password {
+	border: 1px solid #A4A4A4;
+	height: 45px;
+	width: 360px;
+	color: #B1B1B1;
+	margin-top: 20px;
+	padding-left: 17px;
+}
+.form__male, .form__female {
+	border: 1px solid #A4A4A4;
+	box-sizing: border-box;
+}
+.form__female {
+	 margin-left: 20px; 
+	 margin-top: 31px;
+}
+.form__login {
+	margin-top: 30px;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	color: #222222;
+}
+.form__text {
+	margin-top: 15px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 16px;
+	color: #B1B1B1;
+}
+.form__button {
+	margin-top: 39px;
+	height: 50px;
+	width: 167px;
+	background-color: #F16D7F;
+	color: #FFFFFF;
+	display: table;
+}
+.form__button-p {
+	vertical-align: middle;
+}
+.span12 {
+	font-weight: 700px;
+	font-size: 20px;
+}
+.main__loyalty-text, .main__program, .main__list, .main__list-li {
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 29px;
+	color: #000000;
+}
+.main__loyalty-text {
+	margin-top: 64px;
+	width: 652px;
+}
+.main__program {
+	margin-top: 22px;
+}
+.main__list {
+	margin-top: 21px;
+}
+.main__list-li {
+	list-style-type: none;
+	margin-top: 16px;
+}
+.main__list-li::before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 16px;
+	background-image: url(img/Vector.svg);
+	padding-right: 22px;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,182 @@
+@media (max-width: 768px) {
+	.header {
+		width: 768px;
+
+		.header__1 {
+			margin: 18px 0 0 32px; 
+
+			.header__logo {
+				width: 44px;
+			}
+		}
+
+		.header__2 {
+			width: 160px;
+			margin: 31px 41px 21px 424px;
+		}
+	}
+
+	.main {
+		height: 2790px;
+
+		.container {
+			width: 768px;
+			height: 380px;
+
+			.container__big-pics {
+
+				.container__text {
+					height: 368px;
+				}
+
+				.container__line {
+					top: 138px;
+					left: 40px;
+				}
+
+				.man {
+					width: 100%;
+				}
+
+				.container__text-bold {
+					width: 283px;
+					height: 78px;
+					top: 138px;
+					left: 68px;
+
+					.bold {
+						font-size: 44px;
+					}
+
+					.normal, .red {
+						font-size: 24px;	
+					}
+				}	
+			}
+		}
+
+		.sm-container {
+			width: 752px;
+			height: 990px;
+			margin: 19px 0 0 16px;
+
+			.flex {
+
+				.container__pic-text1 {
+					width: 232px;
+					height: 167px;
+					background-size: 100%;
+				}
+
+				.container__pic-text2 {
+					width: 232px;
+					height: 167px;
+					background-size: 100%;
+				}
+
+				.container__pic-text3 {
+					width: 232px;
+					height: 167px;
+					background-size: 100%;
+				}
+
+				.container__pic-text {
+				    margin-top: 59px;
+				}		
+			}
+
+			.flex2 {
+
+				height: 116px;
+				width: 736px;
+				margin-top: 19px;
+
+				.container__pic-text4 {
+					height: 116px;
+					width: 736px;
+				}
+
+				.container__pic-text5 {
+				    padding: 36px;
+				}
+			}
+
+			.container__featured-items {
+			    width: 736px;
+			    margin-right: 0;
+			}
+
+			.six-pics {
+				width: 734px;
+				height: 1777px;
+			}
+
+			.container__brouse-all-products {
+				padding: 18.5px 0 0 278px;
+				height: 142.5px;
+				width: 368px;
+			}
+		}
+	}
+
+	.footer__links {
+		width: 768px;
+		height: 610px;
+
+		.footer__container-links {
+			width: 360px;
+			height: 498px;
+			padding: 48px 0 0 204px;
+			display: inline-flex;
+			flex-direction: column;
+			justify-content: space-between;	
+		}
+	}
+
+	.footer {
+
+		.footer__subscribe {
+			width: 768px;
+			height: 693px;
+			background-size: cover;
+			display: flex;
+			flex-direction: column;
+
+			.footer__photo, .footer__subscribe-mail {
+				width: 768px;
+				height: 448px;
+			}
+			.footer__face {
+				margin-top: 97px;
+				margin-left: 352px;
+			}
+
+			.footer__subscribe-text {
+				margin-top: 58px;
+				margin: auto;
+				text-align: center;
+				width: 557px;
+			}
+			.footer__button-mail {
+				margin: 32px 0 0 209px;
+			}
+		}
+
+		.footer__copyright {
+			width: 768px;
+			height: 79px;	
+
+			.footer__copyright-text {
+				margin-left: 32px;
+			}
+			.footer__icons {
+				margin-right: 23px;
+			}
+			.footer__list {
+				width: 149px;
+			}
+	
+		}
+
+	}
+}

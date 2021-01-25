@@ -1,0 +1,49 @@
+.header {
+	background-color: #222222;
+	max-width: 1600px;
+	height: 75px;
+	display: inline-flex;
+}
+.header__logo, .header__button, .header__burger, .header__body, .header__telega {
+	margin: auto 0;
+}
+.header__1 {
+	height: 44px;
+	width: 111px;
+	margin: 18px 0 0 231px; 
+	display: inline-flex;
+}
+.lupa {
+	background-image: url(img/lupa.svg);
+}
+.header__2 {
+	height: 23px;
+	width: 200px;
+	margin: 31px 239px 21px 859px;
+	display: inline-flex;
+}
+.header__logo {
+	width: 44px;
+	height: 38px;
+}
+.header__button {
+	width: 26px;
+	height: 27px;
+	margin-left: 41px;
+}
+.button-burger, .header__burger {
+	width: 32px;
+	height: 23px;
+}
+.header__burger {
+	margin-right: 34px;
+}
+.header__body {
+	width: 29px;
+	height: 29px;
+	margin-right: 33px;
+}
+.header__telega {
+	width: 32px;
+	height: 29px;
+}
