@@ -1,0 +1,175 @@
+.main-product {
+
+	.slide {
+		position: relative;
+		z-index: 0;
+	}
+
+	.carousel {
+		height: 777px;
+		width: 1600px;
+		background: #F7F7F7;
+		position: relative;
+		z-index: 0;
+
+		.carousel-inner {
+
+			.carousel-item {
+				width: 1600px;
+				height: 777px;
+			}
+		}
+
+		.carousel-control-prev,
+		.carousel-control-next {
+		  top: 365px;
+		  color: #000000;
+		  opacity: 0.5;
+		  background-color: #2A2A2A;
+		  width: 47px;
+		  height: 47px;
+		}
+	}
+
+	.container {
+		width: 1141px;
+		height: 601px;
+		display: block;
+		margin-bottom: 128px;
+		position: relative;
+		z-index: 1;		
+		margin-top: -70px;
+		background: #FFFFFF;
+
+		.container__text {
+
+
+		}
+
+		.row {
+			display: flex;
+			justify-content: space-between;
+
+			.grid-wc {
+				width: 1141px;
+				height: 601px;
+				outline: 1px solid #EAEAEA;
+				padding: 0;
+
+				.grid-women {
+					margin-top: 64px;
+					margin-left: 497px;
+					color: #F16D7F;
+					font-weight: 300;
+					font-size: 14px;
+					line-height: 17px;
+				}
+
+				.grid-cheap {
+					height: 22px;
+					width: 253px;
+					color: #4D4D4D;
+					font-weight: 300;
+					font-size: 18px;
+					line-height: 22px;
+					margin: 27px auto;
+				}
+
+				.grid-text {
+					height: 51px;
+					width: 555px;
+					color: #5E5E5E;
+					font-weight: 300;
+					font-size: 14px;
+					line-height: 17px;
+					text-align: center;
+					margin: 27px auto;
+				}
+
+				.grid-price {
+					width: 56px;
+					height: 29px;
+					color: #EF5B70;
+					font-weight: 300;
+					font-size: 24px;
+					line-height: 29px;
+					margin: 32px auto;
+				}
+
+				.breadcrumb {
+					width: 400px;
+					height: 18px;
+					margin: 130px auto 49px;
+					text-decoration: none;
+
+					.breadcrumb-item1 {
+						text-decoration: none;
+						color: #6F6E6E;
+					}
+
+					.breadcrumb-item2 {
+						visibility: hidden;
+					}
+				}
+
+				.btn {
+					width: 211px;
+					height: 47px;
+					border: 1px solid #FF6A6A;
+					color: #FF6A6A;
+					margin-left: 41%;
+				}				
+			}
+
+			.col-pic {
+				width: 360px;
+				height: 420px;
+				padding: 0;
+			}	
+
+			.col-text {
+				width: 360px;
+				height: 161px;
+				background: #F8F8F8;
+				padding: 0;
+			}
+
+			.col-6 {
+
+				.six-pics__text-price {
+					height: 116px;
+					width: 328px;
+					margin-top: 25px;
+					margin-left: 16px;
+
+					.span5 {
+						color: #000000;
+						font-size: 13px;
+						line-height: 16px;
+						font-weight: 400px;
+						display: block;
+						margin-bottom: 12px;
+					}
+					.span6 {
+						color: #5D5d5d;
+						font-weight: 300;
+						font-size: 14px;
+						line-height: 17px;
+						display: block;
+						margin-bottom: 18px;
+					}
+					.span7 {
+						color: $color_font;
+						font-weight: normal;
+						font-size: 16px;
+						line-height: 19px;
+					}						
+				}
+			
+			}
+
+		}
+
+	}
+}
+
